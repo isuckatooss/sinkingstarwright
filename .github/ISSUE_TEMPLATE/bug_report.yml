@@ -57,14 +57,14 @@ body:
     validations:
       required: false
 
-  - type: textarea
+  - type: upload
     id: level
     attributes:
       label: The level (if it's about one)
-      description: On home, open the level's ⋮ menu, choose "Copy JSON to clipboard" and paste it here, or paste it into Pastebin and put the link here.
-      render: json
+      description: On home, open the level's ⋮ menu, choose "Export to file…", and attach the file it saves here.
     validations:
       required: false
+      accept: ".json"
 
   - type: textarea
     id: anything-else
