@@ -1,4 +1,4 @@
-# Sinking StarWright
+# <img width="48" height="48" alt="" src="https://github.com/user-attachments/assets/204f8081-0581-4ae9-8218-ecb5c6cbb13b" align="absmiddle" /> Sinking StarWright
 
 Create, play and share custom levels for [Order of the Sinking Star](https://www.orderofthesinkingstar.com).
 
