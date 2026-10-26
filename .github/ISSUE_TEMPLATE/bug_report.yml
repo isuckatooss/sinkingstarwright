@@ -1,0 +1,75 @@
+name: Bug report
+description: Something in Sinking StarWright doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this! Please search the existing issues first.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead? Screenshots or a short video help a lot (drag them in here).
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen again
+      placeholder: |
+        1. Open a level in the editor
+        2. Pick the Rock and click on a wall
+        3. ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where in the app?
+      options:
+        - Level editor
+        - Playing a level in the game (Start game)
+        - My levels (importing, exporting, the list)
+        - Updating the app
+        - Restoring a backup
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Click your profile (or Guest) at the bottom left of the home screen. The version is at the bottom of that menu.
+      placeholder: "0.0.2"
+    validations:
+      required: true
+
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: Windows 11
+    validations:
+      required: false
+
+  - type: textarea
+    id: level
+    attributes:
+      label: The level (if it's about one)
+      description: On home, open the level's ⋮ menu, choose "Copy JSON to clipboard" and paste it here, or paste it into Pastebin and put the link here.
+      render: json
+    validations:
+      required: false
+
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
+      description: Did it work before? Does it happen every time?
+    validations:
+      required: false
