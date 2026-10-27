@@ -66,6 +66,15 @@ body:
       required: false
       accept: ".json"
 
+  - type: upload
+    id: logs
+    attributes:
+      label: Logs
+      description: On home, open the Profile menu, choose "Save logs", and attach the generated zip file here.
+    validations:
+      required: false
+      accept: ".zip"
+
   - type: textarea
     id: anything-else
     attributes:
