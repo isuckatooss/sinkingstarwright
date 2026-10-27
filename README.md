@@ -11,7 +11,7 @@ hosted here.
    
 2. Download the installer from https://sinkingstarwright.com. It’s Windows only for now. Your browser may warn that the file is suspicious, because it’s new and few people have downloaded it yet. If it does, choose Download suspicious file (in Chrome, open the downloads list to find it).
 
-3. Double-click the file you downloaded. The app isn’t code-signed yet, so Windows will probably show a “Windows protected your PC” screen. Click *More info**, then *Run anyway*.
+3. Double-click the file you downloaded. The app isn’t code-signed yet, so Windows will probably show a “Windows protected your PC” screen. Click *More info*, then *Run anyway*.
 
 ## Reporting a bug
 
